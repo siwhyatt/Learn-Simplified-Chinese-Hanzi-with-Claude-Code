@@ -1,0 +1,5 @@
+# User actively checks whether decomposition claims are genuine, not just visually plausible
+
+After Lesson 4, the user asked whether 出 is "made up of 2x 山 (shān)" — a reasonable guess from the modern glyph's visual shape, but not its actual composition (real etymology: 止 "foot" + 凵 "cave/pit", per Wiktionary). This wasn't a passive question; it was the user independently testing a component hypothesis against the course's own stated component pool ("we haven't covered 山 yet") and catching that the lesson hadn't sourced or addressed the resemblance.
+
+**Implications:** Future lessons should proactively flag "looks like X but isn't" cases for any character whose modern glyph visually resembles a taught or soon-to-be-taught component but doesn't actually derive from it — don't wait to be asked. This user notices and tests these claims, so unsourced or folk-etymology decompositions are likely to be challenged. Keep citing Wiktionary/Outlier for every decomposition claim, even ones that seem visually "obvious."

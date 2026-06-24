@@ -1,0 +1,3 @@
+# Baseline: ~50-150 characters known, no systematic component grounding
+
+The user reports recognizing roughly 50-150 characters already, acquired through speaking-focused flashcard apps. They can recognize individual characters and some compound words but have not been taught radicals/components systematically — compounds were memorized as whole units rather than decomposed. This matters for sequencing: lessons should not start from zero, but the *first* lessons should still front-load core single-component pictographs (人, 木, 水, 口, 日, etc.) explicitly as reusable building blocks, since that conceptual frame — "you already half-know these as standalone characters, now see them as recurring parts" — is exactly the gap the existing apps left.
