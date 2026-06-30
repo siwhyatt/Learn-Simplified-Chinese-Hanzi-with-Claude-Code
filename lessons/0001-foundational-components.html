@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Lesson 1 — Building Blocks: Your First Five Components</title>
 <link rel="stylesheet" href="../assets/style.css">
 </head>
@@ -16,7 +17,7 @@
   <p>You already recognize a handful of characters from flashcard apps. What those apps probably didn't show you: several of your easiest characters — 人, 木, 水, 口, 日 — aren't just standalone words. They're <em>components</em> that get reused, sometimes in a slightly different shape, inside hundreds of other characters. Once you can spot them inside something bigger, a lot of "memorize this whole word" work turns into "I already know the pieces."</p>
 
   <h2>Radical vs. component</h2>
-  <p>A <strong>radical</strong> technically means one specific thing: one of the 214 index headers used to look characters up in a dictionary. A <strong>component</strong> is broader — any meaningful chunk a character is built from, whether or not it happens to be the dictionary radical. Most components are <em>semantic</em> (hint at meaning) or <em>phonetic</em> (hint at sound); some do both, some do neither. This distinction comes from Outlier Linguistics' Functional Component Framework, which replaced the old "it's just the radical" folk-teaching with research-backed breakdowns — see the <a href="https://www.outlier-linguistics.com/products/outlier-dictionary-of-chinese-characters">Outlier Dictionary of Chinese Characters</a>.</p>
+  <p>A <strong>radical</strong> technically means one specific thing: one of the 214 index headers used to look characters up in a dictionary. A <strong>component</strong> is broader — any meaningful chunk a character is built from, whether or not it happens to be the dictionary radical. Most components are <em>semantic</em> (hint at meaning) or <em>phonetic</em> (hint at sound); some do both, some do neither.
   <p class="sidenote">Research backs the payoff directly: explicitly teaching semantic components measurably helps learners infer the meaning of characters they've never seen before (Lin et al., <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5660119/">PMC, 2017</a>).</p>
 
   <h2>Your five components</h2>
@@ -61,7 +62,7 @@
   </div>
 
   <div class="callout">
-    Three of these — 人, 水, and only these two — change shape when they move to the left side of another character: 人→亻, 水→氵. This is exactly the kind of thing that makes a known character "invisible" inside a compound if nobody points it out. 口 and 日 never change shape as components.
+    Two of these — 人 + 水 — change shape completely when they move to the left side of another character: 人→亻, 水→氵. This is exactly the kind of thing that makes a known character "invisible" inside a compound if nobody points it out. 木 may become vertically or horizontally "squashed", though it maintains it's basic strokes. 口 and 日 never change shape as components.
   </div>
 
   <p>Quick recall — click each card to flip it:</p>
@@ -84,6 +85,11 @@
     <li><span class="stroke-glyph">丿</span>diagonal, upper-right to lower-left</li>
     <li><span class="stroke-glyph">㇏</span>diagonal, upper-left to lower-right</li>
   </ol>
+  <p>人 (rén) is a simpler Rule 1 case — just two diagonals, left before right:</p>
+  <ol class="stroke-steps">
+    <li><span class="stroke-glyph">丿</span>diagonal, upper-right to lower-left</li>
+    <li><span class="stroke-glyph">㇏</span>diagonal, upper-left to lower-right</li>
+  </ol>
 
   <h3>Rule 2: outer strokes before the strokes they enclose, and close last</h3>
   <p>口 (kǒu) shows this: the left and top-right "frame" goes down first, then the closing bottom stroke seals it — never the other way round.</p>
@@ -92,10 +98,23 @@
     <li><span class="stroke-glyph">𠃍</span>top horizontal turning down into the right vertical (one stroke)</li>
     <li><span class="stroke-glyph">一</span>bottom horizontal, closing the box</li>
   </ol>
+  <p>日 (rì) is 口 with one inner horizontal added — that inner stroke goes before the closing bottom, not after it:</p>
+  <ol class="stroke-steps">
+    <li><span class="stroke-glyph">丨</span>left vertical</li>
+    <li><span class="stroke-glyph">𠃍</span>top horizontal turning down into the right vertical (one stroke)</li>
+    <li><span class="stroke-glyph">一</span>inner horizontal</li>
+    <li><span class="stroke-glyph">一</span>bottom horizontal, closing the box</li>
+  </ol>
 
-  <p class="sidenote">水's stroke order is genuinely irregular — not a clean application of either rule above — so rather than risk teaching it wrong here, look up the animated stroke order at <a href="https://www.strokeorder.com/">StrokeOrder.com</a> before you practice writing it.</p>
+  <p>水 is genuinely irregular — it starts with the <em>centre</em> vertical rather than the leftmost stroke, following the same "dominant centre first" principle seen in 山. A minority of teaching materials start with the leftmost 撇 instead; the mainland standard is:</p>
+  <ol class="stroke-steps">
+    <li><span class="stroke-glyph">丨</span>centre vertical, going straight down (the dominant stroke)</li>
+    <li><span class="stroke-glyph">丿</span>upper-left branch, sweeping down-left</li>
+    <li><span class="stroke-glyph">丶</span>lower-left short stroke, going slightly left and down</li>
+    <li><span class="stroke-glyph">㇏</span>right branch, going down-right</li>
+  </ol>
 
-  <h2>Where the payoff shows up: combining components</h2>
+  <h2>Examples using these components: combining components</h2>
   <p>Here are two real, common characters built only from components you already have:</p>
 
   <div class="breakdown">
@@ -164,6 +183,7 @@
   <p class="ask-teacher">Something unclear, or want to go deeper on any of this? Ask your teacher — that's what these sessions are for.</p>
 
   <nav class="lesson-nav">
+    <a href="../index.html">← Home</a> ·
     <a href="0002-woman-and-child.html">Lesson 2: Woman and Child (女/子) →</a> ·
     <a href="../reference/components-glossary.html">Component Glossary (reference)</a>
   </nav>
