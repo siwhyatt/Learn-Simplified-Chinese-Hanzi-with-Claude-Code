@@ -16,7 +16,9 @@
 - [Arch Chinese — stroke order rules](https://www.archchinese.com/chinese_stroke_order_rules.html)
   Clear writeup of the core stroke order rules under the 1997 mainland "Modern Chinese Commonly Used Character Stroke Order Standard." Use for: the stroke-order primers in early lessons.
 - [StrokeOrder.com — stroke order dictionary/animations](https://www.strokeorder.com/)
-  Look up any character for an animated stroke-by-stroke writing demo. Use for: handwriting practice once a character has been introduced (look the character up directly on the site rather than relying on a static lesson diagram).
+  Look up any character not yet covered by this workspace's own stroke diagrams (see below) for an animated stroke-by-stroke writing demo.
+- [Make Me a Hanzi — open-source stroke data](https://github.com/skishore/makemeahanzi)
+  Source of the numbered stroke-order diagrams and animated SVGs embedded directly in lessons (see `assets/strokes/` and `assets/strokes-animated/`, with attribution in `assets/strokes/ATTRIBUTION.md`). Self-hosted so lessons stay accurate and work offline/in print, replacing earlier hand-written stroke descriptions. When a new lesson introduces a character, pull its diagram from this same source (`graphics.txt` for raw stroke data, `svgs-still/<codepoint>-still.svg` and `svgs/<codepoint>.svg` for pre-rendered static/animated versions) rather than writing stroke order by hand.
 
 ## Wisdom (Communities)
 
